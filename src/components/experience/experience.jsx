@@ -6,3 +6,4 @@ export const experience = () => {
     <div>experience</div>
   )
 }
+export default experience
