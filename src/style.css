@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,500&display=swap');
+
 *{
     margin: 0;
     border: 0;
@@ -5,6 +7,106 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     outline: 0;
+}
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2b2b4a;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.8);
+
+    --transition: all 400ms ease;
+
+
+    --container-width-lg: 75%;
+    --container-width-md: 90%;
+    --container-width-sm: 95%;
+}
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../src/assets/bg-texture.png);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* ============General styling======== */
+
+.container{
+    max-width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+h1 {
+    font-size: 3rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+section> h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
