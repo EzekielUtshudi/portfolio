@@ -1,10 +1,10 @@
 import React from 'react'
 import './testimonial.css'
 
-function testimonial() {
+function Testimonial() {
   return (
     <div>testimonial</div>
   )
 }
 
-export default testimonial
+export default Testimonial
