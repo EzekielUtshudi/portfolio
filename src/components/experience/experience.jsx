@@ -94,7 +94,7 @@ export const experience = () => {
             <BsFillPatchCheckFill className='experience-icon'/>
               <div>
                 <h4>Postman</h4>
-                <small className='text-light'>Experience</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
