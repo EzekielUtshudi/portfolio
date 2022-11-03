@@ -8,7 +8,7 @@ import ME from '../../assets/me-about.png'
 function about() {
   return (
     <section id='about'>
-    <h5>Get To Know Me</h5>
+    <h5>Get To Know </h5>
     <h2>About Me</h2>
       <div className='container about__container'>
         <div className='about__me'>
@@ -33,16 +33,12 @@ function about() {
           </article>
           <article className='about__card'>
                <AiFillFolderOpen className='about__icon'/>
-               <h5>Projecta</h5>
+               <h5>Projects</h5>
                <small>80+ Projects </small>
           </article>
           </div>
           <p>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          A Full-stack developer with knowledge in HTML | CSS | JavaScript | Ruby. In my spare time, I research and edit videos.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk </a>
