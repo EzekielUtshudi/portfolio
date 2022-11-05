@@ -10,7 +10,6 @@ import IMAGE6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
-    id: 1,
     image: IMAGE1,
     title: 'This is a portfolio item title',
     github: '#',
@@ -18,7 +17,6 @@ const data = [
   },
 
   {
-    id: 2,
     image: IMAGE2,
     title: 'This is a portfolio item title',
     github: '#',
@@ -26,7 +24,6 @@ const data = [
   },
 
   {
-    id: 3,
     image: IMAGE3,
     title: 'This is a portfolio item title',
     github: '#',
@@ -34,7 +31,6 @@ const data = [
   },
 
   {
-    id: 4,
     image: IMAGE4,
     title: 'This is a portfolio item title',
     github: '#',
@@ -42,7 +38,6 @@ const data = [
   },
 
   {
-    id: 5,
     image: IMAGE5,
     title: 'This is a portfolio item title',
     github: '#',
@@ -50,7 +45,6 @@ const data = [
   },
 
   {
-    id: 6,
     image: IMAGE6,
     title: 'This is a portfolio item title',
     github: '#',
@@ -68,15 +62,15 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({ id, image, title, github, live }) => {
+          data.map(({image, title, github, live }) => {
             return<article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={image} alt={title} />
           </div>
           <h3>This is a portfolio item title</h3>
             <div className='portfolio__item-cta'>
-              <a href={github} className='btn' target='_blank' rel='noopener'>Github</a>
-              <a href={live} className='btn btn-primary' target='_blank' rel='noopener'>Live Demo</a>
+              <a href={github} className='btn' target={'_blank'}>Github</a>
+              <a href={live} className='btn btn-primary' target={'_blank'}>Live Demo</a>
             </div>
         </article>
         })
