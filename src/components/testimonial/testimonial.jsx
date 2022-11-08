@@ -63,7 +63,7 @@ function Testimonial() {
             <img src={avatar} alt={name} />
           </div>
 
-            <h5 ClassName='client__name'>{name}</h5>
+            <h5 className='client__name'>{name}</h5>
             <small className='client__review'>{review}</small>
         </SwiperSlide>
         

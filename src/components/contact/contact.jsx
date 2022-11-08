@@ -3,11 +3,11 @@ import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import { UseRef } from 'react';
+import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
-function contact() {
-    const form = UseRef();
+function Contact() {
+    const form = useRef(null);
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -59,4 +59,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
