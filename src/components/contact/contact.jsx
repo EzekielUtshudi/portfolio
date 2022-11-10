@@ -30,21 +30,21 @@ function Contact() {
           <MdOutlineMail className='contact__icon' />
             <h4>Email</h4>
             <h5>ezekielutshudi@gmail.com</h5>
-            <a href='mailto:ezekielusthudi@gmail.com' target={'_blank'}>Send a message</a>
+            <a href='mailto:ezekielusthudi@gmail.com' rel="noreferrer" target={'_blank'}>Send a message</a>
           </article>
 
           <article className='contact__option'>
           <RiMessengerLine className='contact__icon' />
             <h4>Messenger</h4>
             <h5>Ezekiel Utshudi Eteta</h5>
-            <a href='https://m.me/ezekiel.utshudi/' target={'_blank'}>Send a message</a>
+            <a href='https://m.me/ezekiel.utshudi/' rel="noreferrer"  target={'_blank'}>Send a message</a>
           </article>
 
           <article className='contact__option'>
           <BsWhatsapp className='contact__icon' />
             <h4>Whatsapp</h4>
             <h5>+27103333100</h5>
-            <a href='https://api.whatsapp.com/send?phone+27640492784' target={'_blank'}>Send a message</a>
+            <a href='https://api.whatsapp.com/send?phone+27640492784'rel="noreferrer"  target={'_blank'}>Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}

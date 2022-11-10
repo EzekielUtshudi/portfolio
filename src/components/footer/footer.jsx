@@ -23,7 +23,7 @@ function footer() {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://www.facebook.com/ezekiel.utshudi/' target={'_blank'}><FiFacebook/></a>
+        <a href='https://www.facebook.com/ezekiel.utshudi/' rel="noreferrer"  target={'_blank'}><FiFacebook/></a>
         <a href='https://www.instagram.com/ezekielutshudi/' target={'_blank'}><AiOutlineInstagram/></a>
         <a href='https://www.linkedin.com/in/ezekiel-utshudi-eteta-9b1b1b1b3/' target={'_blank'}><AiFillLinkedin/></a>
         <a href='https://www.twitter.com/ezekielutshudi' target={'_blank'}><FiTwitter/></a>
